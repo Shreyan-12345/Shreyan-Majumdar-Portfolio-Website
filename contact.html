@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shreyan Majumdar - Web Developer, Programmer, ML Enthusiast</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+      <div class="sidebar">
+        <nav>
+            <ul>
+                <li><a href="/home.html">Home</a></li>
+                <li><a href="/intro.html">My Intro</a></li>
+                <li><a href="/profile links.html">Profile Links</a></li>
+                <li><a href="/contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+    </div>
+        <div class="main">
+          <img src="ham.png" alt="" class="ham" width="23px">
+            <img src="cross.png" alt="" class="cross" width="23px">
+            <div class="contactform">
+                <h1>Contact me for work or general queries</h1>
+                <form action="mailto:shreyanjalpaiguri@gmail.com" method="post" enctype="text/plain">
+                    <div class="mb-3">
+                      <label for="clientname" class="form-label">Name</label>
+                      <input type="text" class="form-control" id="clientname" name="Name" value="">
+                    </div>
+                    <div class="mb-3">
+                      <label for="clientemail" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp" name="Email" value="">
+                      <div id="emailHelp" class="form-text"><strong>We'll never share your email and phone with anyone else.</strong></div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="clientphone" class="form-label">Phone</label>
+                      <input type="number" class="form-control" id="clientphone" name="Phone" value="">
+                    </div>
+                    <div class="mb-3">
+                        <label for="clientenquiry" class="form-label">Enquiry</label>
+                        <input type="text" class="form-control" id="clientenquiry" name="Enquiry" value="">
+                    </div>
+                    <button type="submit" class="btn btn-sm btn-primary">Submit</button>
+                  </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
